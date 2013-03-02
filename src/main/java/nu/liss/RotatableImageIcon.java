@@ -98,7 +98,7 @@ public class RotatableImageIcon extends ImageIcon {
      * string is used as the description of this icon.
 	 * @param imageData an array of pixels in an image format supported by the AWT Toolkit, such as GIF or JPEG
 	 */
-	RotatableImageIcon(byte[] imageData) {
+	public RotatableImageIcon(byte[] imageData) {
 		super(imageData);
 		rotatableIconInitialize();
 	}
@@ -110,7 +110,7 @@ public class RotatableImageIcon extends ImageIcon {
 	 * @param imageData an array of pixels in an image format supported by the AWT Toolkit, such as GIF or JPEG
 	 * @param description a brief textual description of the image
 	 */
-	RotatableImageIcon(byte[] imageData, String description) {
+	public RotatableImageIcon(byte[] imageData, String description) {
 		super(imageData, description);
 		rotatableIconInitialize();
 	}
@@ -119,7 +119,7 @@ public class RotatableImageIcon extends ImageIcon {
 	 * property that is a string, then the string is used as the description of this icon.
 	 * @param image the image
 	 */
-	RotatableImageIcon(Image image) {
+	public RotatableImageIcon(Image image) {
 		super(image);
 		rotatableIconInitialize();
 	}
@@ -128,7 +128,7 @@ public class RotatableImageIcon extends ImageIcon {
 	 * @param image the image
 	 * @param description a brief textual description of the image
 	 */
-	RotatableImageIcon(Image image, String description) {
+	public RotatableImageIcon(Image image, String description) {
 		super(image, description);
 		rotatableIconInitialize();
 	}
@@ -142,7 +142,7 @@ public class RotatableImageIcon extends ImageIcon {
 	 * The description is initialized to the {@literal filename} string.
 	 * @param filename a String specifying a filename or path
 	 */
-	RotatableImageIcon(String filename) {
+	public RotatableImageIcon(String filename) {
 		super(filename);
 		rotatableIconInitialize();
 	}
@@ -152,7 +152,7 @@ public class RotatableImageIcon extends ImageIcon {
 	 * @param filename the name of the file containing the image
 	 * @param description a brief textual description of the image
 	 */
-	RotatableImageIcon(String filename, String description) {
+	public RotatableImageIcon(String filename, String description) {
 		super(filename, description);
 		rotatableIconInitialize();
 	}
@@ -162,7 +162,7 @@ public class RotatableImageIcon extends ImageIcon {
 	 *  representation of the URL.
 	 * @param location the URL for the image
 	 */
-	RotatableImageIcon(URL location) {
+	public RotatableImageIcon(URL location) {
 		super(location);
 		rotatableIconInitialize();
 	}
@@ -172,7 +172,7 @@ public class RotatableImageIcon extends ImageIcon {
 	 * @param location the URL for the image
 	 * @param description a brief textual description of the image
 	 */
-	RotatableImageIcon(URL location, String description) {
+	public RotatableImageIcon(URL location, String description) {
 		super(location, description);
 		rotatableIconInitialize();
 	}
